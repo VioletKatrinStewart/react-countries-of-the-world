@@ -10,7 +10,6 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getCountries();
-      console.log(data);
       setCountries(data);
     };
     fetchData();
@@ -18,11 +17,9 @@ function App() {
 
   function filterCountries() {
     const filteredCountries = Countries.filter((country) => country.name.includes(query));
-    console.log(filterCountries);
     const filteredByContinents = filteredCountries.filter(
       (country) => country.continent === Continent || Continent === 'All'
     );
-    console.log(filteredByContinents);
     return filteredByContinents;
   }
 
