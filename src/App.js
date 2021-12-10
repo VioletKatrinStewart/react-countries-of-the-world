@@ -8,10 +8,18 @@ function App() {
     const fetchData = async () => {
       const data = await getCountries();
       console.log(data);
+      setCountries(data);
     };
     fetchData();
   }, []);
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <header>Countries of the World</header>
+      {Countries.map((r) => (
+        <p key={r.id}>{r.name}</p>
+      ))}
+    </div>
+  );
 }
 
 export default App;
