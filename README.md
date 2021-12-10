@@ -23,3 +23,17 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+# STEP ONE HOOK UP SUPABASE
+
+# STEP TWO SET UP AP.JS CONNECT GETCOUNTRIES TO AP.JS USING A USE EFFECT/CONSOLE LOG GET COUNTRIES AND SET IN STATE
+
+# ACP
+
+# LOOP THROUGH LIST OF COUNTRIES AND DISPLAY ON PAGE
+
+# ABILITY TO FILTER BY CONTINENT, DROPDOWN MENU OF CONTINENTS CONNECTED TO STATE
+
+# SECOND FILTER WORKING
+
+# ACP
